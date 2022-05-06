@@ -6,15 +6,15 @@ mirabb_rev2:
     publish_rate: 50
 
   # Position Controllers --------------------------------------
-  joint_right_drive_wheel_to_base_position_controller:
-    type: effort_controllers/JointPositionController
-    joint: joint_right_drive_wheel_to_base
-    pid: {p: 100.0, i: 0.01, d: 10.0}
+  # joint_right_drive_wheel_to_base_position_controller:
+  #   type: effort_controllers/JointPositionController
+  #   joint: joint_right_drive_wheel_to_base
+  #   pid: {p: 100.0, i: 0.01, d: 10.0}
 
-  joint_left_drive_wheel_to_base_position_controller:
-    type: effort_controllers/JointPositionController
-    joint: joint_left_drive_wheel_to_base
-    pid: {p: 100.0, i: 0.01, d: 10.0}
+  # joint_left_drive_wheel_to_base_position_controller:
+  #   type: effort_controllers/JointPositionController
+  #   joint: joint_left_drive_wheel_to_base
+  #   pid: {p: 100.0, i: 0.01, d: 10.0}
 
   joint_abb_1_to_abb_0_position_controller:
     type: effort_controllers/JointPositionController

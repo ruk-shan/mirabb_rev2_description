@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="mirabb_rev2" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<transmission name="joint_right_drive_wheel_to_base_tran">
+<!-- <transmission name="joint_right_drive_wheel_to_base_tran">
   <type>transmission_interface/SimpleTransmission</type>
   <joint name="joint_right_drive_wheel_to_base">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
@@ -21,7 +21,7 @@
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
-</transmission>
+</transmission> -->
 
 
 <transmission name="joint_abb_1_to_abb_0_tran">
