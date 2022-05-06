@@ -2,7 +2,7 @@
 <robot name="mirabb_rev2" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find mirabb_rev2_description)/urdf/materials.xacro" />
-<!-- <xacro:include filename="$(find mirabb_rev2_description)/urdf/mirabb_rev2.trans" /> -->
+<xacro:include filename="$(find mirabb_rev2_description)/urdf/mirabb_rev2.trans" />
 
 <xacro:include filename="$(find mirabb_rev2_description)/urdf/gazebo/mirabb_rev2_materials.gazebo" />
 <xacro:include filename="$(find mirabb_rev2_description)/urdf/gazebo/mirabb_rev2_physics.gazebo" />
@@ -489,8 +489,8 @@
   <child link="abb_link_0_1"/>
 </joint>
 
-<!-- <joint name="joint_abb_1_to_abb_0" type="continuous"> -->
-<joint name="joint_abb_1_to_abb_0" type="fixed">
+<joint name="joint_abb_1_to_abb_0" type="continuous">
+<!-- <joint name="joint_abb_1_to_abb_0" type="fixed"> -->
   <origin xyz="0.0 0.0 0.139" rpy="0 0 0"/>
   <parent link="abb_link_0_1"/>
   <child link="abb_link_1_1"/>
@@ -498,8 +498,8 @@
   <limit effort="0" lower="-3.141" upper="3.141" velocity="3.054"/>
 </joint>
 
-<!-- <joint name="joint_abb_2_to_abb_1" type="continuous"> -->
-<joint name="joint_abb_2_to_abb_1" type="fixed">
+<joint name="joint_abb_2_to_abb_1" type="continuous">
+<!-- <joint name="joint_abb_2_to_abb_1" type="fixed"> -->
   <origin xyz="0.175 -0.1225 0.3355" rpy="0 0 0"/>
   <parent link="abb_link_1_1"/>
   <child link="abb_link_2_1"/>
@@ -507,8 +507,8 @@
   <limit effort="0" lower="-1.570" upper="2.617" velocity="3.054"/>
 </joint>
 
-<!-- <joint name="joint_abb_3_to_abb_2" type="continuous"> -->
-<joint name="joint_abb_3_to_abb_2" type="fixed">
+<joint name="joint_abb_3_to_abb_2" type="continuous">
+<!-- <joint name="joint_abb_3_to_abb_2" type="fixed"> -->
   <origin xyz="0.0 -0.0267 1.095" rpy="0 0 0"/>
   <parent link="abb_link_2_1"/>
   <child link="abb_link_3_1"/>
@@ -516,8 +516,8 @@
   <limit effort="0" lower="-3.141" upper="1.308" velocity="3.054"/>
 </joint>
 
-<!-- <joint name="joint_abb_4_to_abb_3" type="continuous"> -->
-<joint name="joint_abb_4_to_abb_3" type="fixed">
+<joint name="joint_abb_4_to_abb_3" type="continuous">
+<!-- <joint name="joint_abb_4_to_abb_3" type="fixed"> -->
   <origin xyz="0.3401 0.1492 0.175" rpy="0 0 0"/>
   <parent link="abb_link_3_1"/>
   <child link="abb_link_4_1"/>
@@ -525,8 +525,8 @@
   <limit effort="0" lower="-6.981" upper="6.981" velocity="4.363"/>
 </joint>
 
-<!-- <joint name="joint_abb_5_to_abb_4" type="continuous"> -->
-<joint name="joint_abb_5_to_abb_4" type="fixed">
+<joint name="joint_abb_5_to_abb_4" type="continuous">
+<!-- <joint name="joint_abb_5_to_abb_4" type="fixed"> -->
   <origin xyz="0.8904 -0.0205 0.0" rpy="0 0 0"/>
   <parent link="abb_link_4_1"/>
   <child link="abb_link_5_1"/>
@@ -534,8 +534,8 @@
   <limit effort="0" lower="-2.181" upper="2.094" velocity="4.363"/>
 </joint>
 
-<!-- <joint name="joint_abb_6_to_abb_5" type="continuous"> -->
-<joint name="joint_abb_6_to_abb_5" type="fixed">
+<joint name="joint_abb_6_to_abb_5" type="continuous">
+<!-- <joint name="joint_abb_6_to_abb_5" type="fixed"> -->
   <origin xyz="0.051 0.0205 0.0" rpy="0 0 0"/>
   <parent link="abb_link_5_1"/>
   <child link="abb_link_6_1"/>

@@ -12,7 +12,7 @@
         <arg name="use_sim_time" value="true"/>
         <arg name="headless" value="false"/>
         <arg name="verbose" value="true"/>
-        <arg name="world_name" value="$(find mirabb_rev2_description)/gazebo_assets/warehouse_with_OpenTopContainer.world"/>
+        <!-- <arg name="world_name" value="$(find mirabb_rev2_description)/gazebo_assets/warehouse_with_OpenTopContainer.world"/> -->
     </include>
 
         <!--Launch Gazebo Simulator-->
