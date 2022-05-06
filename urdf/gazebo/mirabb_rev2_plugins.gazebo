@@ -23,15 +23,15 @@
   <gazebo reference="front_lidar_1">
     <sensor type="ray" name="front_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>false</visualize>
+      <visualize>true</visualize>
       <update_rate>10</update_rate>
       <ray>
         <scan>
           <horizontal>
             <samples>720</samples>
             <resolution>1</resolution>
-            <min_angle>0</min_angle>
-            <max_angle>-4.71239</max_angle>
+            <min_angle>-1.5708</min_angle>
+            <max_angle>3.14159</max_angle>
           </horizontal>
         </scan>
         <range>
@@ -61,15 +61,15 @@
   <gazebo reference="rear_lidar_1">
     <sensor type="ray" name="rear_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>false</visualize>
+      <visualize>true</visualize>
       <update_rate>10</update_rate>
       <ray>
         <scan>
           <horizontal>
             <samples>720</samples>
             <resolution>1</resolution>
-            <min_angle>0</min_angle>
-            <max_angle>4.71239</max_angle>
+            <min_angle>-4.71239</min_angle>
+            <max_angle>0</max_angle>
           </horizontal>
         </scan>
         <range>

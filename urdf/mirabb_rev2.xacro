@@ -495,7 +495,8 @@
   <parent link="abb_link_0_1"/>
   <child link="abb_link_1_1"/>
   <axis xyz="-0.0 0.0 1.0"/>
-  <limit effort="0" lower="-3.141" upper="3.141" velocity="3.054"/>
+  <limit effort="100" lower="-3.141" upper="3.141" velocity="10"/>
+  <!-- <limit effort="0" lower="-3.141" upper="3.141" velocity="3.054"/> -->
 </joint>
 
 <joint name="joint_abb_2_to_abb_1" type="continuous">
@@ -504,7 +505,8 @@
   <parent link="abb_link_1_1"/>
   <child link="abb_link_2_1"/>
   <axis xyz="-0.0 -1.0 0.0"/>
-  <limit effort="0" lower="-1.570" upper="2.617" velocity="3.054"/>
+  <limit effort="100" lower="-1.570" upper="2.617" velocity="10"/>
+  <!-- <limit effort="0" lower="-1.570" upper="2.617" velocity="3.054"/> -->
 </joint>
 
 <joint name="joint_abb_3_to_abb_2" type="continuous">
@@ -513,7 +515,8 @@
   <parent link="abb_link_2_1"/>
   <child link="abb_link_3_1"/>
   <axis xyz="0.0 1.0 -0.0"/>
-  <limit effort="0" lower="-3.141" upper="1.308" velocity="3.054"/>
+  <limit effort="100" lower="-3.141" upper="1.308" velocity="10"/>
+  <!-- <limit effort="0" lower="-3.141" upper="1.308" velocity="3.054"/> -->
 </joint>
 
 <joint name="joint_abb_4_to_abb_3" type="continuous">
@@ -522,7 +525,8 @@
   <parent link="abb_link_3_1"/>
   <child link="abb_link_4_1"/>
   <axis xyz="1.0 0.0 0.0"/>
-  <limit effort="0" lower="-6.981" upper="6.981" velocity="4.363"/>
+  <limit effort="100" lower="-6.981" upper="6.981" velocity="10"/> 
+  <!-- <limit effort="0" lower="-6.981" upper="6.981" velocity="4.363"/> -->
 </joint>
 
 <joint name="joint_abb_5_to_abb_4" type="continuous">
@@ -531,7 +535,8 @@
   <parent link="abb_link_4_1"/>
   <child link="abb_link_5_1"/>
   <axis xyz="0.0 1.0 -0.0"/>
-  <limit effort="0" lower="-2.181" upper="2.094" velocity="4.363"/>
+  <limit effort="100" lower="-2.181" upper="2.094" velocity="10"/>
+  <!-- <limit effort="0" lower="-2.181" upper="2.094" velocity="4.363"/> -->
 </joint>
 
 <joint name="joint_abb_6_to_abb_5" type="continuous">
@@ -540,7 +545,8 @@
   <parent link="abb_link_5_1"/>
   <child link="abb_link_6_1"/>
   <axis xyz="1.0 0.0 0.0"/>
-  <limit effort="0" lower="-6.981" upper="6.981" velocity="6.283"/>
+  <limit effort="100" lower="-6.981" upper="6.981" velocity="10"/>
+  <!-- <limit effort="0" lower="-6.981" upper="6.981" velocity="6.283"/> -->
 </joint> 
 
 <!-- camera link -->
