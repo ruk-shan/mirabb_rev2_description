@@ -1,0 +1,15 @@
+<launch>
+
+  <param name="robot_description" command="$(find xacro)/xacro $(find mirabb_rev2_description)/urdf/mirabb_rev2.xacro"/>
+
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model mirabb_rev2 -x 20 -y 3 -z 1.27"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="true"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+    <arg name="world_name" value="$(find mirabb_rev2_description)/gazebo_assets/warehouse_with_OpenTopContainer.world"/>
+  </include>
+</launch>
