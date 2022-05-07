@@ -18,7 +18,7 @@
         <!--Launch Gazebo Simulator-->
     <!-- <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" 
     args="-urdf -param robot_description -model loadcell" output="screen"/> -->
-     <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model mirabb_rev2 -x 20 -y 3 -z 1.27"/>
+     <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model mirabb_rev2 -x 20 -y 3 -z 1.4"/>
 
 
     <!-- loading controller -->
